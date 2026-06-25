@@ -44,6 +44,9 @@ Missing values were represented using `999` and were handled during preprocessin
 
 ## Methodology
 
+<img width="959" height="458" alt="image" src="https://github.com/user-attachments/assets/62ba2a34-1b8c-4298-8a54-7febbc2380a7" />
+
+
 ### 1. Data Preprocessing
 
 The preprocessing pipeline included:
@@ -111,6 +114,8 @@ The final selected pCR model was an **XGBoost classifier** trained using the sel
 * Recall: **0.919**
 * F1-score: **0.838**
 
+<img width="959" height="423" alt="image" src="https://github.com/user-attachments/assets/c1b2c502-1f5e-446f-9b2d-95e8fe3549b2" />
+
 ---
 
 ### RFS Regression
@@ -120,6 +125,7 @@ The final selected RFS model was an ensemble combining Random Forest, Gradient B
 **Final RFS performance:**
 
 * Mean Absolute Error: **18.36**
+<img width="356" height="224" alt="image" src="https://github.com/user-attachments/assets/8972e50b-4101-46b9-85ab-6e7072b1339c" />
 
 ---
 
